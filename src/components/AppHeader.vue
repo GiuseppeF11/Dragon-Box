@@ -7,22 +7,22 @@ export default {
             activeImg : 0,
             autoplay : null,
             store,
-            lifeStyle: [
+            series: [
                 {
-                    imgUrl: 'https://demo.hasnaindev.com/animetech/wp-content/uploads/2022/12/visit-france.webp',
-                    title: 'Reasons To Visit France'
+                    imgUrl: 'https://i.ebayimg.com/images/g/FKQAAOSwLdJcmodZ/s-l1200.webp',
+                    title: 'Dragon Ball Z'
                 },
                 {
-                    imgUrl: 'https://demo.hasnaindev.com/animetech/wp-content/uploads/2022/12/best-places.webp',
-                    title: 'Places For A Road Trip'
+                    imgUrl: 'https://m.media-amazon.com/images/S/pv-target-images/04d302ad1ee8e4df87b0f4f4e6b21aa3264dde54bf52ebd2d7c9a4f4ab009369.jpg',
+                    title: 'Dragon Ball GT'
                 },
                 {
-                    imgUrl: 'https://demo.hasnaindev.com/animetech/wp-content/uploads/2022/12/music-love.webp',
-                    title: 'Music The Love Of My Life'
+                    imgUrl: 'https://cookandcomics.wordpress.com/wp-content/uploads/2017/10/dragon-ball-super-copertina-1193635330.jpg',
+                    title: 'Dragon Ball Super'
                 },
                 {
-                    imgUrl: 'https://demo.hasnaindev.com/animetech/wp-content/uploads/2022/12/anime-fashion.webp',
-                    title: 'Fashion Trend Now A Days'
+                    imgUrl: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/798510/capsule_616x353.jpg?t=1563959290',
+                    title: 'Super Dragon Ball Heroes'
                 },
             ],
             stories: [
@@ -126,13 +126,13 @@ export default {
         <!-- HEADER MIDDLE -->
             <section class="container">
                 <div class="row header-middle">
-                    <div class="col-auto p-0 img-box">
+                    <div class="col-auto img-box">
                         <a href="/">
-                            <img src="https://demo.hasnaindev.com/animetech/wp-content/uploads/2022/12/anime-logo.webp" alt="">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Dragon_Ball_Z_logo.svg" alt="">
                         </a>
                     </div>
-                    <div class="col-auto p-0">
-                        <img src="https://demo.hasnaindev.com/animetech/wp-content/uploads/2022/12/header-banner.webp" class="rounded-1" alt="">
+                    <div class="col p-5 rounded-2 jumbo">
+                        
                     </div>
                 </div>   
             </section>           
@@ -161,30 +161,17 @@ export default {
                             <div class="offcanvas-body">
                                 <div class="img-box">
                                     <a href="/">
-                                        <img  src="https://demo.hasnaindev.com/animetech/wp-content/uploads/2022/12/anime-logo.webp" alt="">
+                                        <img  src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Dragon_Ball_Z_logo.svg" alt="">
                                     </a>
                                 </div>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, enim consequatur voluptates sunt minus facilis.</p>
+                                <p>
+                                    <strong>Dragon Box</strong> is a space that brings together the series, details and products of the great Dragon Ball universe.
+                                </p>
 
                                 <div class="mb-4">
-                                    <div class="row row-cols-3 mb-3 ">
-                                        <div class="col">
-                                            <img class="rounded-2" :src="this.lifeStyle[2].imgUrl" :alt="this.lifeStyle[2].title">
-                                        </div>
-                                        <div class="col">
-                                            <img class="rounded-2" :src="this.lifeStyle[1].imgUrl" :alt="this.lifeStyle[1].title">
-                                        </div>
-                                        <div class="col">
-                                            <img class="rounded-2" :src="this.lifeStyle[3].imgUrl" :alt="this.lifeStyle[3].title">
-                                        </div>
-                                    </div>
-
-                                    <div class="row justify-content-center info">
-                                        <div class="col-auto">
-                                            <i class="fa-solid fa-clock"></i>
-                                        </div>
-                                        <div class="col-auto">
-                                            <span>Sun - Sat : 9:00 AM - 18:00 PM</span>
+                                    <div class="row row-cols-4 mb-3 ">
+                                        <div class="col" v-for="character in series">
+                                            <img class="rounded-2 h-100 object-fit-cover" :src="character.imgUrl" :alt="character.title">
                                         </div>
                                     </div>
 
@@ -193,7 +180,7 @@ export default {
                                             <i class="fa-solid fa-envelope"></i>
                                         </div>
                                         <div class="col-auto">
-                                            <span>contact@domain.com</span>
+                                            <span>dragonbox@email.com</span>
                                         </div>
                                     </div>
 
@@ -202,7 +189,7 @@ export default {
                                             <i class="fa-solid fa-phone-volume"></i>
                                         </div>
                                         <div class="col-auto">
-                                            <span>(+82) 8123 456 789</span>
+                                            <span>(+39) 3333 222 111</span>
                                         </div>
                                     </div>
                                 </div>
@@ -234,13 +221,13 @@ export default {
                         <li id="life-style">
                             <i class="fa-solid fa-suitcase"></i>
                             <div class="dropdown">
-                                <a>LIFESTYLES
+                                <a>SERIES
                                     <div class="dropdown-content smooth-transition">
                                         <div class="container">
                                             <div class="row row-cols-4 p-3">
-                                                <div class="col text-center" v-for="(elem, i) in lifeStyle">
+                                                <div class="col text-center" v-for="(elem, i) in series">
                                                     <div class="bg-light rounded-3">
-                                                        <img class="rounded-3" :src="elem.imgUrl" :alt="elem.title">
+                                                        <img class="rounded-top-1 object-fit-cover" style="height: 150px" :src="elem.imgUrl" :alt="elem.title">
                                                         <a class="bg-light p-2 m-0 rounded-3">{{ elem.title }}</a>
                                                     </div>
                                                 </div>
@@ -383,7 +370,7 @@ ul {
         margin: 0 5px;
         cursor: pointer;
         background-color: white;
-        color: #BF1C2D;
+        color: #DF693C;
         font-size: 15px;
         border-radius: 50%;
         display: flex;
@@ -401,7 +388,7 @@ ul {
 /*           HEADER TOP          */
 .header-top {
 height: 40px;
-background-color:#BF1C2D;
+background-color:#DF693C;
 
 
 .typewriter {
@@ -437,7 +424,7 @@ background-color:#BF1C2D;
             width: 0;
             height: 0;
             border-top: 20px solid transparent;
-            border-left: 8px solid #BC1C2F;
+            border-left: 8px solid #DF693C;
             border-bottom: 20px solid transparent;
         }
 
@@ -468,9 +455,17 @@ background-color:#BF1C2D;
     padding: 20px 0;
     justify-content: space-between;
     align-items: center;
+
     .img-box {
         width: 20%;
     }
+}
+
+.jumbo {
+    background-image: url(https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/q/v/g/small-poster-anime-dragon-ball-dragon-ball-z-goku-super-saiyan-original-imagm2zjsehqhwgz.jpeg?q=90&crop=false);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
 }
 
 
@@ -489,7 +484,7 @@ background-color:#BF1C2D;
         padding: 0 5px;
 
         &:hover {
-            color: #BF1C2D;
+            color: #DF693C;
         }
     }
 
@@ -518,7 +513,7 @@ background-color:#BF1C2D;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background-color: #BC1C2F;
+                background-color: #DF693C;
                 border: none;
                 transition: 0.5s;
 
@@ -558,21 +553,21 @@ background-color:#BF1C2D;
                     }
 
                     span:hover {
-                        color: #BC1C2F;
+                        color: #DF693C;
                         transition: 0.5s;
                     }
 
                 }
 
                 i {
-                    color: #BC1C2F;
+                    color: #DF693C;
                 }            
             }
 
             .fa-brands {
                 width: 40px;
                 height: 40px;
-                background-color: #BF1C2D;
+                background-color: #DF693C;
                 color: white;
                 font-size: 20px;
                 border-radius: 50%;
@@ -651,17 +646,17 @@ background-color:#BF1C2D;
             cursor: pointer;
 
             &.active-link {
-                color: #BF1D2E;
+                color: #DF693C;
                 a {
-                    color: #BF1D2E;
+                    color: #DF693C;
                 }
             }
 
             &:hover {
-                    color: #BF1D2E;
+                    color: #DF693C;
 
                     a {
-                        color: #BF1D2E;
+                        color: #DF693C;
                         
                     }
 
@@ -732,7 +727,7 @@ background-color:#BF1C2D;
             }
 
             .dropdown-content a:hover {
-                color: #BC1C2F;
+                color: #DF693C;
             }
 
             .dropdown:hover .dropdown-content {
@@ -770,7 +765,7 @@ background-color:#BF1C2D;
             }
 
             .dropdown-content a:hover {
-                color: #BC1C2F;
+                color: #DF693C;
             }
 
             .dropdown:hover .dropdown-content {

@@ -6,146 +6,136 @@ export default {
     data(){
         return{
             slideUno:[
-            {
-                image: 'https://i.ebayimg.com/images/g/mGMAAOSwdUdjM4BG/s-l1200.webp',
-                desc: 'Goku in action',
-                date: 'December 25, 2022',
-            },
-            {
-                image: 'https://i.pinimg.com/736x/72/9e/e3/729ee3b542324b9e1b1b4d88180b0b49.jpg',
-                desc: 'Vegeta the Prince of Saiyans',
-                date: 'December 25, 2022',
-            },
-            {
-                image: 'https://i.pinimg.com/736x/f4/b0/72/f4b0724b1cd4e6bce148f7957a795d42.jpg',
-                desc: 'Gohan Beast',
-                date: 'December 25, 2022',
-            },
-            {
-                image: 'https://images.everyeye.it/img-notizie/dragon-ball-super-livello-potenza-esatto-ammonta-orange-piccolo-v3-662080-1200x1200.webp',
-                desc: 'Piccolo the wise warrior',
-                date: 'December 25, 2022',
-            },
-            {
-                image: 'https://i.ebayimg.com/images/g/9iYAAOSwp~tixozW/s-l1600.jpg',
-                desc: 'Future Trunks with his sword',
-                date: 'December 25, 2022',
-            },
-            {
-                image: 'https://images.everyeye.it/img-notizie/dragon-ball-cosplay-bulma-adulta-abito-rosso-pam-v3-639959-1200x1200.webp',
-                desc: 'Bulma the brilliant scientist',
-                date: 'December 25, 2022',
-            },
-            {
-                image: 'https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/golden-freezer-artwork-big-mart.jpg',
-                desc: 'Frieza the galactic tyrant',
-                date: 'December 25, 2022',
-            },
-            {
-                image: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c741ffe5-60c6-480c-ac38-86c623a52889/dfz99nw-c71a5938-4d50-4d87-920c-003654cfce27.png/v1/fill/w_1024,h_1536,q_80,strp/perfect_cell___dragon_ball_z_by_yomogun_dfz99nw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3NDFmZmU1LTYwYzYtNDgwYy1hYzM4LTg2YzYyM2E1Mjg4OVwvZGZ6OTludy1jNzFhNTkzOC00ZDUwLTRkODctOTIwYy0wMDM2NTRjZmNlMjcucG5nIiwiaGVpZ2h0IjoiPD0xNTM2Iiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvYzc0MWZmZTUtNjBjNi00ODBjLWFjMzgtODZjNjIzYTUyODg5XC95b21vZ3VuLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.s-sq2ahHijCPliYieZbO7vT45RLq27OeHdPjFGE8Qxo',
-                desc: 'Cell the bio-engineered android',
-                date: 'December 25, 2022',
-            },
-            {
-                image: 'https://s1.zerochan.net/Majin.Buu.600.3602407.jpg',
-                desc: 'Majin Buu the unpredictable',
-                date: 'December 25, 2022',
-            },
-
-                
-                ],
+                {
+                    image: 'https://i.ebayimg.com/images/g/mGMAAOSwdUdjM4BG/s-l1200.webp',
+                    desc: 'Goku in action',
+                    date: 'December 25, 2022',
+                },
+                {
+                    image: 'https://i.pinimg.com/736x/72/9e/e3/729ee3b542324b9e1b1b4d88180b0b49.jpg',
+                    desc: 'Vegeta the Prince of Saiyans',
+                    date: 'December 25, 2022',
+                },
+                {
+                    image: 'https://i.pinimg.com/736x/f4/b0/72/f4b0724b1cd4e6bce148f7957a795d42.jpg',
+                    desc: 'Gohan Beast',
+                    date: 'December 25, 2022',
+                },
+                {
+                    image: 'https://images.everyeye.it/img-notizie/dragon-ball-super-livello-potenza-esatto-ammonta-orange-piccolo-v3-662080-1200x1200.webp',
+                    desc: 'Piccolo the wise warrior',
+                    date: 'December 25, 2022',
+                },
+                {
+                    image: 'https://i.ebayimg.com/images/g/9iYAAOSwp~tixozW/s-l1600.jpg',
+                    desc: 'Future Trunks with his sword',
+                    date: 'December 25, 2022',
+                },
+                {
+                    image: 'https://images.everyeye.it/img-notizie/dragon-ball-cosplay-bulma-adulta-abito-rosso-pam-v3-639959-1200x1200.webp',
+                    desc: 'Bulma the brilliant scientist',
+                    date: 'December 25, 2022',
+                },
+                {
+                    image: 'https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/golden-freezer-artwork-big-mart.jpg',
+                    desc: 'Frieza the galactic tyrant',
+                    date: 'December 25, 2022',
+                },
+                {
+                    image: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c741ffe5-60c6-480c-ac38-86c623a52889/dfz99nw-c71a5938-4d50-4d87-920c-003654cfce27.png/v1/fill/w_1024,h_1536,q_80,strp/perfect_cell___dragon_ball_z_by_yomogun_dfz99nw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3NDFmZmU1LTYwYzYtNDgwYy1hYzM4LTg2YzYyM2E1Mjg4OVwvZGZ6OTludy1jNzFhNTkzOC00ZDUwLTRkODctOTIwYy0wMDM2NTRjZmNlMjcucG5nIiwiaGVpZ2h0IjoiPD0xNTM2Iiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvYzc0MWZmZTUtNjBjNi00ODBjLWFjMzgtODZjNjIzYTUyODg5XC95b21vZ3VuLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.s-sq2ahHijCPliYieZbO7vT45RLq27OeHdPjFGE8Qxo',
+                    desc: 'Cell the bio-engineered android',
+                    date: 'December 25, 2022',
+                },
+                {
+                    image: 'https://s1.zerochan.net/Majin.Buu.600.3602407.jpg',
+                    desc: 'Majin Buu the unpredictable',
+                    date: 'December 25, 2022',
+                },
+            ],
             videos: [
-                    {
-                        thumb:'https://i.ytimg.com/vi/ebHd_3QJNBA/hqdefault.jpg',
-                        num: 1,
-                        title: 'Sword Of The Stranger Fight Scene'
-                    },
-                    {
-                        thumb:'https://i.ytimg.com/vi/zlwQERpksnw/hqdefault.jpg',
-                        num: 2,
-                        title: 'Sun Out, Guns Out' 
-                    },
-                    {
-                        thumb:'https://i.ytimg.com/vi/itQnUDMMhaU/hqdefault.jpg',
-                        num: 3,
-                        title: 'Top 10 Vinland Saga Moments' 
-                    },
-                    {
-                        thumb:'https://i.ytimg.com/vi/IrU2dklT11s/hqdefault.jpg',
-                        num: 4,
-                        title: 'Everytime Sukuna Appears' 
-                    },
-                    {
-                        thumb:'https://i.ytimg.com/vi/H5qupR6YQpQ/hqdefault.jpg',
-                        num: 5,
-                        title: 'Wizard King (Julius) Vs Licht (Patri) Full Fight'
-                    },
-                    {
-                        thumb:'https://i.ytimg.com/vi/ICt1jYfucec/hqdefault.jpg',
-                        num: 6,
-                        title: 'Vinland Saga | SHATTERED'
-                    },
-                    {
-                        thumb:'https://i.ytimg.com/vi/CkC5CtabT1Y/hqdefault.jpg',
-                        num: 7,
-                        title: 'Konan Arranges'
-                    }
-                ],
+                {
+                    thumb:'https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/QCSKO3BSYVAB5CD5CUV3KLJKRQ.jpg',
+                    num: 1,
+                    title: 'Goku vs Vegeta: Epic Battle'
+                },
+                {
+                    thumb:'https://static1.thegamerimages.com/wordpress/wp-content/uploads/2018/12/Dragon-Ball-Resurrection-F-Master-Roshi-e1545397478625.jpg',
+                    num: 2,
+                    title: 'Training with Master Roshi' 
+                },
+                {
+                    thumb:'https://www.mundodeportivo.com/alfabeta/hero/2022/11/Goku-ultra-instinto-no-es-una-transformacion.png?width=768&aspect_ratio=16:9&format=nowebp',
+                    num: 3,
+                    title: 'Top 10 Legendary Goku Moments' 
+                },
+                {
+                    thumb:'https://i0.wp.com/www.badtaste.it/fumetti/wp-content/uploads/sites/3/frieza-2015.jpg?fit=600%2C300&quality=85&strip=all&ssl=1',
+                    num: 4,
+                    title: 'Everytime Frieza Makes an Entrance' 
+                },
+                {
+                    thumb:'https://i.ytimg.com/vi/qBA9o7qEhCQ/maxresdefault.jpg',
+                    num: 5,
+                    title: 'Goku vs Vegeta: Final Showdown'
+                },
+                {
+                    thumb:'https://i.pinimg.com/originals/14/83/55/14835580b9fd40fb3f8c921f7c1d8c6a.jpg',
+                    num: 6,
+                    title: "Goku's Training Journey"
+                },
+                {
+                    thumb:'https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/07/dragon-ball-super-piccolo-smiles-header.jpg',
+                    num: 7,
+                    title: "Piccolo's Strategy"
+                }
+            ],
+
             slideDue:[
-                    {
-                        image: '/public/anime-fashion.webp',
-                        title: 'Fashion Trend Now A Days',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
-                    {
-                        image: '/public/best-places.webp',
-                        title: 'Places For A Road Trip',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
-                    {
-                        image: '/public/healthy-foods.webp',
-                        title: 'The Best Healthy Foods',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
-                    {
-                        image: '/public/photographers-mistakes.webp',
-                        title: 'Beginner Photographer Mistakes',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
-                    {
-                        image: '/public/rice-ball.webp',
-                        title: 'Hygenic Receipe To Prepare Rice',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
-                    {
-                        image: '/public/success-story.webp',
-                        title: 'The Best Success Stories',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
-                    {
-                        image: '/public/travel-alone.webp',
-                        title: 'Traveling Alone is Awesome',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
-                    {
-                        image: '/public/visit-france.webp',
-                        title: 'Reason To Visit France',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
-                    {
-                        image: '/public/winter.webp',
-                        title: 'The Best Winter Outfits',
-                        date: 'December 25, 2022',
-                        desc:'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum...'
-                    },
+            {
+                    image: 'https://images.stockx.com/images/Funko-Pop-Animation-Dragon-Ball-Super-SSG-Goku-Summer-Convention-Exclusive-Figure-826.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1607122933&q=60',
+                    desc: 'Goku SSG',
+                    price: '30,00€'
+                },
+                {
+                    image: 'https://nuovo.uomodeifumetti.it/wp-content/uploads/2023/07/889698658935.webp',
+                    desc: 'Goku Ultra Instinct',
+                    price: '50,00€'
+                },
+                {
+                    image: 'https://m.media-amazon.com/images/I/818U+PYaavL._UF1000,1000_QL80_.jpg',
+                    desc: 'Shenron Dragon',
+                    price: '20,00€'
+                },
+                {
+                    image: 'https://www.thegamebusters.it/22841-large_default/funko-pop-kami-952-dragon-ball.jpg',
+                    desc: 'Supremo',
+                    price: '15,00€'
+                },
+                {
+                    image: 'https://www.ibs.it/images/0849803039912_1_536_0_75.jpg',
+                    desc: 'Vegeta DBZ',
+                    price: '30,00€'
+                },
+                {
+                    image: 'https://images.stockx.com/images/funko-pop-animation-dragonball-z-beerus-flocked-funimation-exclusive-figure-514-Updated.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1626289848',
+                    desc: 'Beerus',
+                    price: '30,00€'
+                },
+                {
+                    image: 'https://i0.wp.com/mitico.biz/wp-content/uploads/2023/05/Funko-Pop-Dragonball-Super-Shin-1283.jpg?fit=650%2C650&ssl=1',
+                    desc: 'Super Shin',
+                    price: '29,99€'
+                },
+                {
+                    image: 'https://m.media-amazon.com/images/I/81FQ0u8MTqL._AC_UF1000,1000_QL80_.jpg',
+                    desc: 'Goku Black Rosè',
+                    price: '39,99€'
+                },
+                {
+                    image: 'https://www.stickerpoint.it/images/funko-pop-animation-1280-dragonball-super-jiren.jpg',
+                    desc: 'Jiren',
+                    price: '50,00€'
+                },
                     
                 ],
             carouselFoot:[
@@ -491,34 +481,24 @@ export default {
         </section>                              <!--FINE SEZIONE 4 COMPLETA -->
 
         
-        <section>
-            <div class="container">
-                <div class="flex-section mb-2">
-                    <div>
-                        <h4>
-                            FEATURED POSTS
-                        </h4>
+        <section class="bg-section mb-4">
+            <div class="slider" @mouseover="handleMouseOver" @mouseleave="handleMouseLeave">
+                <div class="card" v-for="(slide,i) in slideDue">
+                    <div class="card-img-box position-relative">
+                        <img :src="slide.image" class="card-img-top w-50 bg-black p-1 h-100 w-100 object-fit-center" alt="...">
                     </div>
-
-                    <div>
-                        <button @click="prev2" class="my-button2"><i class="fa-solid fa-angle-left"></i></button>
-                        <button @click="next2" class="my-button2"><i class="fa-solid fa-angle-right"></i></button>
+                    <div class="card-body text-center position-absolute top-0 start-50 translate-middle-x">
+                        <p class="fw-bold text-light badge bg-secondary fs-6">{{ slide.desc }}</p>
                     </div>
-                </div>
-                
-                
-                <div class="slider2" @mouseover="handleMouseOver" @mouseleave="handleMouseLeave">
-                    <div class="card" style="width: 18rem;" v-for="(slide,i) in slideDue">
-                        <img :src="slide.image" class="card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title mb-0">{{ slide.title }}</h5>
-                            <p class="fw-semibold mb-1">{{ slide.date }}</p>
-                            <p class="card-text">{{ slide.desc }}</p>
-                            <a href="#" class="link-pers">Read More</a>
-                        </div>
+                    <div class="text-center position-absolute bottom-0 end-0 translate-middle-x">
+                        <p class="fw-bold bg-danger text-light badge fs-7">{{ slide.price }}</p>
                     </div>
                 </div>
+                        <!-- <p class="fw-semibold">{{ slide.date }}</p> -->
             </div>
+
+            <button class="my-button next" @click="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="my-button prev" @click="next"><i class="fa-solid fa-angle-right"></i></button>
         </section>
 
 
@@ -631,7 +611,7 @@ export default {
 
 
 .my-button{
-    color: #bf1d2e;
+    color: #DF693C;
     border: none;
     background-color: white;
     padding: 10px 16px;
@@ -656,7 +636,7 @@ export default {
 }
 
 .my-button:hover{
-    background-color: #bf1d2e;
+    background-color: #DF693C;
     color: white;
     transition: 0.2s ease-in-out;
 }
