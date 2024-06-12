@@ -6,51 +6,52 @@ export default {
     data(){
         return{
             slideUno:[
-                {
-                    image: '/public/anime-fashion.webp',
-                    desc: 'Fashion Trend Now A Days',
-                    date: 'December 25, 2022',
-                },
-                {
-                    image: '/public/best-places.webp',
-                    desc: 'Places For A Road Trip',
-                    date: 'December 25, 2022',
-                },
-                {
-                    image: '/public/healthy-foods.webp',
-                    desc: 'The Best Healthy Foods',
-                    date: 'December 25, 2022',
-                },
-                {
-                    image: '/public/photographers-mistakes.webp',
-                    desc: 'Beginner Photographer Mistakes',
-                    date: 'December 25, 2022',
-                },
-                {
-                    image: '/public/rice-ball.webp',
-                    desc: 'Hygenic Receipe To Prepare Rice',
-                    date: 'December 25, 2022',
-                },
-                {
-                    image: '/public/success-story.webp',
-                    desc: 'The Best Success Stories',
-                    date: 'December 25, 2022',
-                },
-                {
-                    image: '/public/travel-alone.webp',
-                    desc: 'Traveling Alone is Awesome',
-                    date: 'December 25, 2022',
-                },
-                {
-                    image: '/public/visit-france.webp',
-                    desc: 'Reason To Visit France',
-                    date: 'December 25, 2022',
-                },
-                {
-                    image: '/public/winter.webp',
-                    desc: 'The Best Winter Outfits',
-                    date: 'December 25, 2022',
-                },
+            {
+                image: 'https://i.ebayimg.com/images/g/mGMAAOSwdUdjM4BG/s-l1200.webp',
+                desc: 'Goku in action',
+                date: 'December 25, 2022',
+            },
+            {
+                image: 'https://i.pinimg.com/736x/72/9e/e3/729ee3b542324b9e1b1b4d88180b0b49.jpg',
+                desc: 'Vegeta the Prince of Saiyans',
+                date: 'December 25, 2022',
+            },
+            {
+                image: 'https://i.pinimg.com/736x/f4/b0/72/f4b0724b1cd4e6bce148f7957a795d42.jpg',
+                desc: 'Gohan Beast',
+                date: 'December 25, 2022',
+            },
+            {
+                image: 'https://images.everyeye.it/img-notizie/dragon-ball-super-livello-potenza-esatto-ammonta-orange-piccolo-v3-662080-1200x1200.webp',
+                desc: 'Piccolo the wise warrior',
+                date: 'December 25, 2022',
+            },
+            {
+                image: 'https://i.ebayimg.com/images/g/9iYAAOSwp~tixozW/s-l1600.jpg',
+                desc: 'Future Trunks with his sword',
+                date: 'December 25, 2022',
+            },
+            {
+                image: 'https://images.everyeye.it/img-notizie/dragon-ball-cosplay-bulma-adulta-abito-rosso-pam-v3-639959-1200x1200.webp',
+                desc: 'Bulma the brilliant scientist',
+                date: 'December 25, 2022',
+            },
+            {
+                image: 'https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/golden-freezer-artwork-big-mart.jpg',
+                desc: 'Frieza the galactic tyrant',
+                date: 'December 25, 2022',
+            },
+            {
+                image: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c741ffe5-60c6-480c-ac38-86c623a52889/dfz99nw-c71a5938-4d50-4d87-920c-003654cfce27.png/v1/fill/w_1024,h_1536,q_80,strp/perfect_cell___dragon_ball_z_by_yomogun_dfz99nw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3NDFmZmU1LTYwYzYtNDgwYy1hYzM4LTg2YzYyM2E1Mjg4OVwvZGZ6OTludy1jNzFhNTkzOC00ZDUwLTRkODctOTIwYy0wMDM2NTRjZmNlMjcucG5nIiwiaGVpZ2h0IjoiPD0xNTM2Iiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvYzc0MWZmZTUtNjBjNi00ODBjLWFjMzgtODZjNjIzYTUyODg5XC95b21vZ3VuLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.s-sq2ahHijCPliYieZbO7vT45RLq27OeHdPjFGE8Qxo',
+                desc: 'Cell the bio-engineered android',
+                date: 'December 25, 2022',
+            },
+            {
+                image: 'https://s1.zerochan.net/Majin.Buu.600.3602407.jpg',
+                desc: 'Majin Buu the unpredictable',
+                date: 'December 25, 2022',
+            },
+
                 
                 ],
             videos: [
@@ -249,12 +250,12 @@ export default {
         <section class="bg-section mb-4">
             <div class="slider" @mouseover="handleMouseOver" @mouseleave="handleMouseLeave">
                 <div class="card" style="width: 18rem;" v-for="(slide,i) in slideUno">
-                    <img :src="slide.image" class="card-img-top" alt="...">
-                    <span class="badge my-badge-pers1 text-bg-light">Travel</span>
-                    <span class="badge text-bg-light my-badge-pers2">Lifestyle</span>
-                    <div class="card-body text-center">
-                        <p class="card-text fw-bold mb-0">{{ slide.desc }}</p>
-                        <p class="fw-semibold">{{ slide.date }}</p>
+                    <div class="card-img-box position-relative">
+                        <img :src="slide.image" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center position-absolute bottom-0 start-50 translate-middle-x">
+                        <p class="fw-bold text-light badge bg-dark fs-6">{{ slide.desc }}</p>
+                        <!-- <p class="fw-semibold">{{ slide.date }}</p> -->
                     </div>
                 </div>
             </div>
@@ -525,8 +526,9 @@ export default {
                 <div class="container">
                     <div class="flex-yt">
                         <div class="player">
-                            <iframe width="840" height="550" src="https://www.youtube.com/embed/ebHd_3QJNBA?si=D9eFh_-BI02K8u_d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="840" height="550" src="https://www.youtube.com/embed/MmAJq7BBN0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
+
 
                         <div class="playlist-yt">
                             <div class="head-playlist">
@@ -610,7 +612,22 @@ export default {
 
 .card{
     margin: 0 10px;
+    max-height: 300px;
 }
+
+.card-img-box {
+    height: 300px;
+    
+    .card-img-top {
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 5px;
+    }
+}
+
+
 
 
 .my-button{
